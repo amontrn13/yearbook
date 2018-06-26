@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.yearbook {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+}
+
+.titleSubText {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+}
+
+.titleYear {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: #ffe363;
+}
+
+.navBar {
+	background: #30404c;
+	height: 500px;
+}
+
+.imgProfile {
+    border-radius: 50%;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.personName{}
+
+.personSpe{}
