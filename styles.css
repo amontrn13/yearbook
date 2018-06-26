@@ -1,26 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+
+.div-logos {
+	padding: 50px;
+}
+
+.inFrame {
+	padding: 80px; -->
+}
 
 .yearbook {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 10px;
+	grid-column-gap: 30px;
+	padding: 150px;
+}
+
+.profile {
+	text-align: center;
 }
 
 .titleSubText {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 10px;
+	font-size: 15px;
+	letter-spacing: 5px;
 	color: #ffffff;
 }
 
 .titleYear {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 60px;
+	font-size: 100px;
+	font-weight: 600;
+	letter-spacing: 20px;
 	color: #ffe363;
 }
 
-.navBar {
+.container {
 	background: #30404c;
 	height: 500px;
+	margin: 50px;
+	text-align: center;
+	padding: 50px;
 }
 
 .imgProfile {
