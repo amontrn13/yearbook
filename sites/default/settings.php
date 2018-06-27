@@ -297,7 +297,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'efeJ6vbSfTRH6P2N_Mz1mQWirvwgMu6UeLBNOXj4U5_JhGjcsD1N3VJhi-SLG26JezEje6Fuvw';
+$settings['hash_salt'] = 'o5w9-bNHpN-4MwmNswWEK6Ddvm6I4vUnx4vOUI5GV57NT_SwAGR5LPgtjSE81cCYfmAdxFQKGA';
 
 /**
  * Deployment identifier.
@@ -790,10 +790,10 @@ $databases['default']['default'] = array (
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
-  'host' => 'yearbook.local',
+  'host' => 'localhost',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_FKHAT7N2tmnmXXURMrWv8ooMo7xHDpfsll_q1LvXF86IYcwYPP8DEYbM0c6U_JAeC-8wodfKmw/sync';
+$config_directories['sync'] = 'sites/default/files/config_HSXLhpiXxFkroLABTgpL4ey1ylyg5EzPviGsAIy5lXmnJ679MW62FnpbeSUMTbb8NOmEMqgt2w/sync';

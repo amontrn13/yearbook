@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800');
+
+.body-container {
+	background: #3d5261;
+}
 
 .left {
 	float:left;
@@ -11,42 +15,70 @@
 	padding: 50px;
 }
 
-.inFrame {
-	padding: 80px; -->
+.div-title {
+	padding: 20px; 
 }
 
 .yearbook {
+	background: #f5f9fa;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 30px;
-	padding: 150px;
+	grid-row-gap: 30px;
+	margin: -10px;
+	padding: 70px 100px 70px 100px;
 }
 
 .profile {
+	background: #ffffff;
 	text-align: center;
+	padding: 40px;
+
+}
+
+.profile-name {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 0px;
+	padding-top: 10px;
+	color: #446881;
+}
+
+.profile-spe {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	color: #6f889b;
 }
 
 .titleSubText {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 	letter-spacing: 5px;
+	line-height: 0px;
 	color: #ffffff;
 }
 
 .titleYear {
+	display: block;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100px;
 	font-weight: 600;
 	letter-spacing: 20px;
+	padding-top: 100px;
 	color: #ffe363;
 }
 
-.container {
+.header-container {
 	background: #30404c;
-	height: 500px;
+	height: 400px;
 	margin: 50px;
 	text-align: center;
-	padding: 50px;
+	padding: 2px;
 }
 
 .imgProfile {
@@ -56,9 +88,7 @@
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
-	color: #000000;
+	line-height: 2.0;
+	color: #6f889b;
 }
 
-.personName{}
-
-.personSpe{}
